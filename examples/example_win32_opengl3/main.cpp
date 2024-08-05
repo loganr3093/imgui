@@ -108,11 +108,6 @@ int main(int, char**)
         }
         if (done)
             break;
-        if (::IsIconic(hwnd))
-        {
-            ::Sleep(10);
-            continue;
-        }
 
         // Start the Dear ImGui frame
         ImGui_ImplOpenGL3_NewFrame();

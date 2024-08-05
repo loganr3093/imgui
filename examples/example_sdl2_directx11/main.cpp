@@ -126,11 +126,6 @@ int main(int, char**)
                 CreateRenderTarget();
             }
         }
-        if (SDL_GetWindowFlags(window) & SDL_WINDOW_MINIMIZED)
-        {
-            SDL_Delay(10);
-            continue;
-        }
 
         // Start the Dear ImGui frame
         ImGui_ImplDX11_NewFrame();

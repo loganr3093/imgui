@@ -1,10 +1,9 @@
--- Build ImGui
 project "ImGui"
     kind "StaticLib"
     language "C++"
 
-	targetdir ("Binaries/" .. OutputDir .. "/%{prj.name}")
-    objdir ("Binaries/Intermediates/" .. OutputDir .. "/%{prj.name}")
+	targetdir ("bin/" .. OutputDir .. "/%{prj.name}")
+    objdir ("bin-int/" .. OutputDir .. "/%{prj.name}")
 
 	files
 	{

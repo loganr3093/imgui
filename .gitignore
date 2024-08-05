@@ -3,7 +3,6 @@
 
 ## Dear ImGui artifacts
 imgui.ini
-imgui*.ini
 
 ## General build artifacts
 *.o
@@ -59,19 +58,3 @@ examples/example_sdl2_metal/example_sdl2_metal
 examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
-
-# Directories
-.vs/
-Binaries/
-Intermediates/
-bin/
-bin-int/
-
-# Files
-*.vcxproj
-*.vcxproj.user
-*.vcxproj.filters
-*.sln
-*.log
-*.user
-*.ini
